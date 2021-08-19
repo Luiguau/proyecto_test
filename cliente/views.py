@@ -31,9 +31,6 @@ def update(request):
 	# errors = Cliente.objects.validador_cliente(request.POST)
 	errors = Cliente.objetos.validador_cliente(request.POST)
 
-	# VARIABLE DE PRUEBA PARA VER SI ME TOMABA USANDO UNA CLASE MANAGER CON OTRO NOMBRE
-	# errors = Cliente.objects.clientValidator(request.POST)
-	# errors = Cliente.objeto.clientValidator(request.POST)
 
 	if len(client) >0:
 		client.nombre = request.POST['nombre']

@@ -63,5 +63,3 @@ class Cliente(models.Model):
 	objects = ClienteManager()
 	objetos = ClienteManager()
 
-	# objects = Client_Manager()
-	# objetos = Client_Manager()
